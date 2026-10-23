@@ -1,3 +1,4 @@
+[hidden]{display:none!important}
 /* Layout: marketplace — sticky header (brand, search, nav), category strip, photo-first catalog grid; listing opens as a two-pane modal; inbox is list + conversation. */
 :root{
   --bg:#f4f3f8; --panel:#ffffff; --panel-2:#eceaf3; --line:#dedbe8; --line-2:#cbc7d8;
@@ -279,7 +280,7 @@ footer.site a{color:var(--muted)}
 .hero p{color:var(--muted);margin:10px 0 0;max-width:58ch;font-size:16px}
 .hero .ctas{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
 .how{display:grid;gap:8px}
-.how div{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:11px 13px;font-size:14px}
+.how > div{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:11px 13px;font-size:14px}
 .how b{display:block}
 .how span.n{width:26px;height:26px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-weight:700;display:flex;align-items:center;justify-content:center;font-family:var(--f-mono);font-size:12px}
 @media (max-width:900px){.hero{grid-template-columns:1fr}}
